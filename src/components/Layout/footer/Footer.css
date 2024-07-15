@@ -1,0 +1,13 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.footer-bg {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0) 100%);
+}

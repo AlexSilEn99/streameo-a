@@ -1,0 +1,56 @@
+.background-frame {
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+    animation: fade-in 3s;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.4;
+    }
+}
+
+input[type=text] {
+    appearance: none;
+    border: none;
+    outline: none;
+    border-bottom: .2em solid #aa1e1e;
+    background-color: transparent !important;
+    border-radius: .2em .2em 0 0;
+    padding: .4em;
+    max-width: 70vh;
+    color: white;
+}
+
+.silkscreen-regular {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.custom-scrollbar-css {
+    overflow-y: scroll;
+}
+
+    .custom-scrollbar-css::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    .custom-scrollbar-css::-webkit-scrollbar-track {
+        background: rgba(0, 0, 0, 0);
+    }
+
+    .custom-scrollbar-css::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background-color: #d62828;
+    }
+

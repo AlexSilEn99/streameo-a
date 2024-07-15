@@ -1,0 +1,30 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+    height: 6em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.title {
+    color: #fff;
+    font-size: 72pt;
+}
+
+.bg-black-transparent {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.bg-black-transparent-fade {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 10%, rgba(0,0,0,0.65) 90%, rgba(255,255,255,0) 100%);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-bottom: .2em solid #FFF;
+}

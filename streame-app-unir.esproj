@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.784122">
+  <PropertyGroup>
+    <StartupCommand>npm run dev</StartupCommand>
+    <JavaScriptTestRoot>src\</JavaScriptTestRoot>
+    <JavaScriptTestFramework>Jest</JavaScriptTestFramework>
+    <!-- Allows the build (or compile) script located on package.json to run on Build -->
+    <ShouldRunBuildScript>false</ShouldRunBuildScript>
+    <!-- Folder where production build objects will be placed -->
+    <BuildCommand>npm run build</BuildCommand>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\components\AboutUs\Title\" />
+    <Folder Include="src\components\AboutUs\Description\" />
+    <Folder Include="src\components\Contact\Title\" />
+    <Folder Include="src\components\History\Item\" />
+    <Folder Include="src\components\Home\SearchBar\" />
+    <Folder Include="src\components\Home\Top\" />
+    <Folder Include="src\components\Movie\Details\" />
+    <Folder Include="src\components\Movie\Top\" />
+    <Folder Include="src\components\Movie\WebsiteButton\" />
+    <Folder Include="src\components\Movie\Overview\" />
+    <Folder Include="src\components\Movie\Poster\" />
+    <Folder Include="src\components\Movie\WatchButton\" />
+  </ItemGroup>
+</Project>
